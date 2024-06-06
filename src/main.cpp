@@ -6,11 +6,15 @@
 /*   By: cedmulle <42-xvi@protonmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/02 10:40:18 by cedmulle          #+#    #+#             */
-/*   Updated: 2024/06/02 10:40:24 by cedmulle         ###   ########.fr       */
+/*   Updated: 2024/06/06 17:18:28 by cedmulle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	main(void)
+#include "webserv.hpp"
+
+int	main(int argc, char **argv)
 {
+	(void)argc;
+	(void)argv;
 	return (0);
 }

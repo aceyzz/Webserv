@@ -6,7 +6,7 @@
 #    By: cedmulle <42-xvi@protonmail.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/06/02 10:29:14 by cedmulle          #+#    #+#              #
-#    Updated: 2024/06/02 10:46:46 by cedmulle         ###   ########.fr        #
+#    Updated: 2024/06/06 17:18:21 by cedmulle         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,7 @@ OBJ			= $(addprefix $(OBJ_DIR), $(notdir $(SRC:.cpp=.o)))
 INC			= $(INC_DIR)webserv.hpp
 RM			= rm -rf
 CC			= c++
-CFLAGS		= -Wall -Wextra -Werror -std=c++98 -I $(INC_DIR)
+CFLAGS		= -Wall -Wextra -Werror -std=c++98 -I$(INC_DIR)
 
 RED			= \033[1;31m
 GRN			= \033[1;32m
